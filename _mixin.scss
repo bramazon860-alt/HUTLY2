@@ -1,0 +1,22 @@
+@mixin button {
+    justify-content: start;
+    align-items: start;
+    padding: 15px 20px;
+    background-color: $text_color;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+@mixin width{
+    width: 93.5%;
+    margin: 50px auto 0 auto;
+    height: 120vh;
+    border-radius: 55px;
+}
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    
+}
